@@ -1,0 +1,46 @@
+/* @import "~bootstrap/scss/utilities"; */
+
+.uiHeader {
+    font-size: 1rem;
+    border-bottom: 1px solid #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+
+.main-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.right_nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paddingRight {
+    padding-right: 5px;
+}
+
+.subheading {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.tabclass {
+    cursor: pointer;
+    
+}
+
+.tabclass:hover {
+    color: rgb(10, 167, 36);
+}
