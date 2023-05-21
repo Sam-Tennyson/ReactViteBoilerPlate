@@ -34,7 +34,7 @@ const RootRouter = () => {
   const isAuthenticated = !!token;
   return (
     <BrowserRouter basename={""}>
-      <AppLayout isAuthenticated={isAuthenticated}>{token ? <GuestRoute />: <AuthenticatedRoutes />}</AppLayout>
+      <AppLayout isAuthenticated={isAuthenticated}>{true ? <AuthenticatedRoutes />: <GuestRoute />}</AppLayout>
     </BrowserRouter>
   );
 };
